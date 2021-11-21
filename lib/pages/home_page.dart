@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     int all = 3000;
@@ -12,12 +11,11 @@ class HomePage extends StatelessWidget {
         title: Text("Enactus Shivaji"),
       ),
       body: Center(
-          child: Container(
-            child: Text("Welcome to My App $all \n $man "),
-          ),
+        child: Container(
+          child: Text("Welcome to My App $all \n $man "),
         ),
+      ),
       drawer: Drawer(),
-      
     );
   }
 }
